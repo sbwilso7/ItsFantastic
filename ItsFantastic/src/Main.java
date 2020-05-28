@@ -21,8 +21,7 @@ public class Main {
     private static void makeItFantastic(String file_path){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(file_path));
-            //long length = 78000000000L;
-            long length = 1000;
+            long length = 78000000000L;
             int statusCounter = 0;
             for(int i = 0; i < length; i++){
                 String str = "LINE: " + i;
